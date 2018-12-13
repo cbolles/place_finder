@@ -1,10 +1,11 @@
 import React from "react";
-import Navigator from "../Navigation";
+import Sidebar from "../Sidebar";
+
 
 class Yelp extends React.Component {
     render() {
-        return (
-            <Navigator></Navigator>
+        return(
+            <Sidebar></Sidebar>
         )
     }
 }
